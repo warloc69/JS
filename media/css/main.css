@@ -1,0 +1,99 @@
+body {
+    background-color: lightblue;
+}
+
+.container {
+    background-color: darkolivegreen;
+    width: 980px;
+    height: 920px;
+}
+
+.color-pickers label,
+.color-pickers input,
+input.color-picker-blue,
+input.color-picker-green,
+.color-pickers {
+    /*float: right;*/
+    display: block;
+}
+
+.label-red {
+    color: red;
+}
+
+.label-green {
+    color: green;
+}
+
+.label-blue {
+    color: blue;
+}
+
+div.final-color {
+    border: #010101 1px;
+    min-width: 45px;
+    min-height: 20px;
+    max-height: 20px;
+    background-color: rgb(50, 50, 50);
+}
+
+.canvas {
+    float: left;
+    height: 50%;
+}
+
+.final-color {
+    margin: 0px 84px;
+    float: left;
+    height: 25%;
+}
+
+.color-pickers {
+    height: 25%;
+}
+
+.pen img {
+    float: left;
+    min-width: 45px;
+    min-height: 20px;
+    max-height: 46px;
+    margin: 50px 50px;
+}
+
+.pen img:hover {
+    border: 2px;
+    border-width: thick;
+    border-style: solid;
+    border-color: black;
+}
+
+.cirk img:hover {
+    border: 2px;
+    border-width: thick;
+    border-style: solid;
+    border-color: black;
+}
+
+.cirk img {
+    float: left;
+    min-width: 45px;
+    min-height: 20px;
+    max-height: 46px;
+    margin: 50px 50px;
+}
+
+.color-pickers {
+    display: table;
+}
+
+.red {
+    display: table-footer-group;
+}
+
+.green {
+    display: table-row-group;
+}
+
+.blue {
+    display: table-header-group;
+}
